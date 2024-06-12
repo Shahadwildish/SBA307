@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Store - Products</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Our Products</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Flower Selection</h2>
+            <table>
+                <tr>
+                    <th>Flower</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Roses</td>
+                    <td>$20</td>
+                </tr>
+                <tr>
+                    <td>Tulips</td>
+                    <td>$15</td>
+                </tr>
+                <tr>
+                    <td>Daisies</td>
+                    <td>$10</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2>Order Now</h2>
+            <form action="#" method="post">
+                <label for="flower">Choose a flower:</label>
+                <select id="flower" name="flower">
+                    <option value="roses">Roses</option>
+                    <option value="tulips">Tulips</option>
+                    <option value="daisies">Daisies</option>
+                </select>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="100">
+                <button type="submit" href="products.html">Order</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Flower Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
